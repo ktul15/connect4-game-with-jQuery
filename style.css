@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+
+#connect-4{
+  background-color: yellow;
+  display: inline-block;
+  /* height: 50vh; */
+  /* width: 50vw; */
+}
+
+/* .row{
+  width: 100%;
+  height: calc(100% / 6);
+  display: flex;
+} */
+
+.col{
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
